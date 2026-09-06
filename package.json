@@ -1,0 +1,22 @@
+{
+  "name": "is-this-phishing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A browser extension that checks the site you're on for common phishing patterns, entirely locally.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "lint": "bash scripts/lint-extension.sh"
+  },
+  "devDependencies": {
+    "addons-linter": "^10.10.0",
+    "jsdom": "^30.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusharnagar2002/is-this-phishing.git"
+  }
+}
